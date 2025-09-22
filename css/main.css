@@ -98,6 +98,7 @@ a.btn_more {display: inline-block; padding: 15px 60px 15px 25px; border-radius: 
 .company .inner a.btn_more:hover {color: #fff; background: #000 url(../images/more_white.svg) no-repeat right 25px center / 15px 15px;}
 
 @media (max-width:650px) {
+    .company .inner .company_txt {top: 50%; transform: translateY(-50%);}
     .company .inner {padding: 100px 0 150px;}
     .company .inner img {transform: scale(0.7,0.7);}
     .company .inner h2 {margin: 15px 0; font-size: 2.5rem;}
@@ -171,5 +172,6 @@ section h2 {font-size: 3rem; margin-bottom: 20px;}
  @media (max-width:880px) {
     .gotop {background: #fff url(../images/gotop.svg) no-repeat center / 15px 15px; width: 35px; height: 35px;}
  }
+
 
 
